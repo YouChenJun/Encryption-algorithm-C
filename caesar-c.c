@@ -1,20 +1,20 @@
 #include<stdio.h>
 #include<string.h>
 //#Copyright (c) 2021 Huang yu xiang 
-//¼ÇµÃ¶¯ÄÔ£¡£¡£¡
+//è®°å¾—åŠ¨è„‘ï¼ï¼ï¼
 int main()
 {
 	char kaisa(char password,int move);
 	int i,a,n,move;
 	char password[100],pass[100];
-	printf("ÇëÊäÈëÄãÒªÑ¡ÔñµÄ¼ÓÃÜ·½Ê½£º\n1.¿­Èö¼ÓÃÜ\n2.Òì»òĞÔÖÊ¼ÓÃÜ\n3.RSAËã·¨¼ÓÃÜ\n");
+	printf("è¯·è¾“å…¥ä½ è¦é€‰æ‹©çš„åŠ å¯†æ–¹å¼ï¼š\n1.å‡¯æ’’åŠ å¯†\n2.å¼‚æˆ–æ€§è´¨åŠ å¯†\n3.RSAç®—æ³•åŠ å¯†\n");
 	scanf("%d",&a);
 	switch (a) {
 		case 1:
 			
-			printf("ÇëÊäÈëÄãµÄÃÜÂë£º");
+			printf("è¯·è¾“å…¥ä½ çš„å¯†ç ï¼š");
 			gets(password);
-			printf("ÇëÊäÈëÃÜÔ¿£º(1-25)");
+			printf("è¯·è¾“å…¥å¯†é’¥ï¼š(1-25)");
 			scanf("%d",&move);
 			for(i=0; i<strlen(password); i++)
 			        {
@@ -31,11 +31,11 @@ int main()
 			        printf("\n");
 			break;
 		case 2:
-			printf("×÷ÕßÌ«²Ë£¬´ò¿ªÎÄ¼ş1.2ÊÔÊÔ¿´°É£¡\n");
+			printf("ä½œè€…å¤ªèœï¼Œæ‰“å¼€æ–‡ä»¶1.2è¯•è¯•çœ‹å§ï¼\n");
 			
 			break;
 		case 3:
-			printf("Ã»´í£¬Õâ¸ö¹¦ÄÜÒ²Ã»ÓĞÊµÏÖ£¡\n");
+			printf("æ²¡é”™ï¼Œè¿™ä¸ªåŠŸèƒ½ä¹Ÿæ²¡æœ‰å®ç°ï¼\n");
 			
 			break;
 	
